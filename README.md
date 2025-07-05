@@ -15,6 +15,24 @@ The final results of automatic mappings were insane: it precisely matched with ~
 
 168 entries were not handled by automatic mapping, I will map them manually
 
+Schema:
+
+```ts
+{
+  idMal:       integer().notNull().unique(),
+  idAnilibria: integer().notNull(),
+}
+```
+
 ## SovetRomantica
 
 Currently has 1329 entries
+
+Schema:
+
+```ts
+{
+  idMal:            integer().notNull().unique(),
+  idSovetRomantica: integer().notNull().unique(),
+}
+```
