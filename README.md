@@ -26,7 +26,7 @@ Schema:
 
 ## SovetRomantica
 
-Covers all releases that had `id_shikimori` in the SovetRomantica API response
+Covers all releases that had an `anime_shikimori` property in the SovetRomantica API response
 
 Currently has **1329 entries**.
 
